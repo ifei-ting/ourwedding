@@ -4,13 +4,34 @@
 <meta charset="UTF-8" data-page-node-id="DUlAr9ADaMKnlJhl2ZtLxQ" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" data-page-node-id="8Xzk07vbWXNRSVOtbkZ1J9" />
 <title>丁逸飞 &amp; 钱梦恬 · 婚礼邀请函</title>
-<meta name="description" content="2026年10月25日，常熟市常福街道塘湾路，诚邀您共同见证。" />
+<meta name="description" content="2026年10月25日 星期日 · 常熟市常福街道塘湾路 · 诚邀您共同见证" />
 <meta name="format-detection" content="telephone=no,email=no,address=no" />
 <meta name="theme-color" content="#F6F3EE" />
+<link rel="canonical" href="https://ourwedding-8ow.pages.dev/" />
+
+<!-- ===== 社交分享卡片（微信 / 朋友圈 / QQ / 微博） =====
+     微信只读「服务器返回的静态 HTML」，不执行 JS、不读 DOM。
+     硬性要求：og:image 必须是以 https:// 开头的【绝对地址】——写成 assets/xx.jpg
+     这种相对路径微信抓不到，这是分享缩略图不显示的头号原因。
+     图片另需 ≥300×300、正方形最佳、体积小、无防盗链。这里用 500×500 / 30KB 的 share.jpg。
+     ▸ 以后换域名：python build/set_share_origin.py https://新域名 -->
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="丁逸飞 &amp; 钱梦恬 · 婚礼邀请函" />
+<meta property="og:locale" content="zh_CN" />
 <meta property="og:title" content="丁逸飞 &amp; 钱梦恬 · 婚礼邀请函" />
-<meta property="og:description" content="2026.10.25 星期日 · 常熟市常福街道塘湾路 · 诚邀您共同见证" />
-<meta property="og:image" content="assets/hero.jpg" />
+<meta property="og:description" content="2026年10月25日 星期日 · 常熟市常福街道塘湾路 · 诚邀您共同见证" />
+<meta property="og:url" content="https://ourwedding-8ow.pages.dev/" />
+<meta property="og:image" content="https://ourwedding-8ow.pages.dev/assets/share.jpg" />
+<meta property="og:image:secure_url" content="https://ourwedding-8ow.pages.dev/assets/share.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="500" />
+<meta property="og:image:alt" content="丁逸飞 &amp; 钱梦恬 婚礼邀请函" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="丁逸飞 &amp; 钱梦恬 · 婚礼邀请函" />
+<meta name="twitter:description" content="2026年10月25日 星期日 · 常熟市常福街道塘湾路 · 诚邀您共同见证" />
+<meta name="twitter:image" content="https://ourwedding-8ow.pages.dev/assets/share.jpg" />
+<link rel="image_src" href="https://ourwedding-8ow.pages.dev/assets/share.jpg" />
 <!-- 字体异步加载（media=print + onload 切换），大陆网络访问 Google Fonts 慢或超时时
      也绝不阻塞首屏渲染；加载失败自动回退系统宋体 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -481,6 +502,12 @@ footer .names{
 </style>
 </head>
 <body data-page-node-id="yEmOUfjVIAM7Woa9twNjBi">
+
+<!-- 微信兜底：部分微信版本会忽略 og:image，转而抓页面里第一张 ≥300×300 的图片。
+     这张 share.jpg 用绝对定位推到屏幕外，不占版式、不产生滚动条，只为让爬虫第一个遇到它。
+     注意别改成 display:none —— 被隐藏的图片微信会跳过。 -->
+<img src="assets/share.jpg" width="300" height="300" alt="" aria-hidden="true"
+     style="position:absolute;left:-9999px;top:0;width:300px;height:300px;border:0;pointer-events:none" />
 
 <div class="progress" id="progress" data-page-node-id="9ft00O1RQQkZkb9xSNKI9L"></div>
 
