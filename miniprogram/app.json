@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#F6F3EE",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F3EE",
+    "navigationBarTitleText": "丁逸飞 & 钱梦恬 婚礼邀请函",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}
