@@ -1,0 +1,4 @@
+Official website icons, retrieved 2026-09-20:
+AMap: https://a.amap.com/pc/static/favicon.ico
+Baidu Maps: https://map.baidu.com/favicon.ico
+PNG conversion only; brand artwork unchanged.
